@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- start UI Find Phone Book -->
+  <div class="phone-book">
+    <div class="phone-book-container">
+      <div class="phone-book-header">
+        <form id="phone-book-form">
+          <input type="text" id="userName" placeholder="Tên" class="form-control" />
+          <input type="text" id="phoneNumber" placeholder="Điện thoại" class="form-control" />
+          <input type="submit" value="THÊM" class="phone-book-submit" id="phone-book-submit" />
+        </form>
+      </div>
+
+      <div class="phone-book-function">
+        <input type="text" placeholder="Tìm kiếm theo tên hoặc sđt" class="form-control-search" id="keyword">
+        <input type="submit" value="TÌM" class="phone-book-submit" id="btnSearch" />
+        <input type="submit" value="XÓA TRÙNG" class="phone-book-submit" id="btnDeleteReplace" />
+      </div>
+
+      <div class="phone-book-body" id="phone-book-body"></div>
+    </div>
+  </div>
+  <!-- end UI Find Phone Book -->
+ 
+
+<script src="main.js"></script>
+</body >
+</html>
